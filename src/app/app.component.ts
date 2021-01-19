@@ -1,0 +1,17 @@
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+})
+export class AppComponent {
+  title = 'blogApp';
+  yourname="Sunny"
+  getName(yourname: any){
+    alert(yourname)
+  }
+  myEvent(message:any){
+    document.write(message)
+  }
+}
